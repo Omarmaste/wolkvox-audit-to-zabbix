@@ -1,0 +1,18 @@
+# Ignorar archivos de entorno
+.env
+.env.local
+
+# Archivo de estado del script
+wolkvox_last_timestamp.txt
+
+# Logs y salidas temporales
+*.log
+*.tmp
+
+# Entornos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de backup
+*~
+
