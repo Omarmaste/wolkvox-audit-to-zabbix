@@ -21,7 +21,7 @@ Permite identificar errores como cambios no autorizados, activaciones de servici
 - Consulta el API cada día con un script programado vía `cron`.
 - Filtra solo eventos que contienen la palabra clave `ADMIN:`.
 - Envía estos eventos a Zabbix mediante `zabbix_sender`.
-- Guarda la marca de tiempo del último evento procesado en un archivo (`wolkvox_last_timestamp.txt`) para evitar duplicados.
+- Guarda el último evento procesado en un archivo (`wolkvox_last_timestamp.txt`) para evitar duplicados.
 - Compatible con Zabbix traps (`trapper`) para centralizar eventos textuales y auditables.
 
 ## 🧪 Requisitos
